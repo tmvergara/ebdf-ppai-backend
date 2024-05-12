@@ -1,5 +1,14 @@
 # PPAI Backend
 
+### Como correr el proyecto?
+
+- Para correr la aplicacion primero se deben instalar las dependencias y despues se puede iniciar el servidor:
+
+  ```bash
+  npm install
+  npm run dev
+  ```
+
 ### **Explicacion basica de la distribucion y la arquitectura del proyecto**:
 
 <img src="images/README/1715470819302.png" width="300">
