@@ -3,4 +3,9 @@ class TipoUva {
         this.nombre = nombre,
         this.descripcion = descripcion
     }
+    esTipoUva(nombre) {
+        if (this.nombre = nombre) {
+            return true
+        }
+    }
 } 
