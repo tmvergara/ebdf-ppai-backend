@@ -20,6 +20,9 @@ class Server {
     // Importar y usar las rutas
     const userRouter = require("./routes/user.router");
     this.app.use("/users", userRouter);
+
+    const bodegasRouter = require("./routes/bodegas.router");
+    this.app.use("/bodegas", bodegasRouter);
   }
 
   listen() {
