@@ -1,10 +1,10 @@
 class Maridaje {
     constructor(nombre, descripcion) {
         this.nombre = nombre,
-        this.descripcion = descripcion
+            this.descripcion = descripcion
     }
-    esMaridaje(nombre) {
-        if (this.nombre = nombre) {
+    esMaridaje(nombreM) {
+        if (this.nombre = nombreM) {
             return true
         }
     }
