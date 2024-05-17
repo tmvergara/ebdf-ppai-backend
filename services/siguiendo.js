@@ -5,7 +5,8 @@ class Siguiendo {
         this.bodega = bodega;
         this.enofilo = enofilo;
     }
-    sosBodega(bodega) { 
+    // verifica si el enófilo sigue a una bodega
+    sosDeBodega(bodega) { 
         if (this.bodega === bodega) {
             return true;
         } 
