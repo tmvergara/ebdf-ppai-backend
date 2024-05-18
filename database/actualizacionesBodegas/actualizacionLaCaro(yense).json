@@ -2,9 +2,25 @@
     {
         "id": 1,
         "nombre": "Vino Tinto Reserva",
-        "añada": 2019,
+        "añada": 2020,
         "varietal": "Tempranillo",
-        "precio": 25.99,
+        "precio": 27.50,
         "nota_de_cata": 4.5
+    },
+    {
+        "id": 3,
+        "nombre": "Vino Rosado Semidulce",
+        "añada": 2019,
+        "varietal": "Garnacha",
+        "precio": 18.99,
+        "nota_de_cata": 4.0
+    },
+    {
+        "id": 15,
+        "nombre": "Vino Blanco Seco",
+        "añada": 2020,
+        "varietal": "Chardonnay",
+        "precio": 19.99,
+        "nota_de_cata": 4.0
     }
 ]

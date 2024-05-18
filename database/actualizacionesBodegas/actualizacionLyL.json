@@ -6,5 +6,29 @@
         "varietal": "Chardonnay",
         "precio": 28.75,
         "nota_de_cata": 4.2
+    },
+    {
+        "id": 12,
+        "nombre": "Vino Blanco Joven",
+        "añada": 2022,
+        "varietal": "Sauvignon Blanc",
+        "precio": 14.99,
+        "nota_de_cata": 3.8
+    },
+    {
+        "id": 13,
+        "nombre": "Vino Tinto Roble",
+        "añada": 2017,
+        "varietal": "Malbec",
+        "precio": 25.99,
+        "nota_de_cata": 4.1
+    },
+    {
+        "id": 14,
+        "nombre": "Vino Espumoso Brut Nature",
+        "añada": 2019,
+        "varietal": "Chardonnay",
+        "precio": 23.99,
+        "nota_de_cata": 4.4
     }
 ]

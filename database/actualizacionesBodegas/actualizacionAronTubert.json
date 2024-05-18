@@ -6,5 +6,21 @@
         "varietal": "Cabernet Sauvignon",
         "precio": 35.99,
         "nota_de_cata": 4.7
+    },
+    {
+        "id": 5,
+        "nombre": "Vino Blanco Barrica",
+        "añada": 2021,
+        "varietal": "Chardonnay",
+        "precio": 31.99,
+        "nota_de_cata": 4.2
+    },
+    {
+        "id": 11,
+        "nombre": "Vino Tinto Reserva Especial",
+        "añada": 2018,
+        "varietal": "Cabernet Sauvignon",
+        "precio": 35.99,
+        "nota_de_cata": 4.3
     }
 ]
