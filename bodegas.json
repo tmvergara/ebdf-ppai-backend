@@ -10,11 +10,7 @@
     "coordenadas": {
       "lat": -34.4713,
       "lng": -58.5555
-    },
-    "direccion": "Avda. Sucre 2074 - 1º Piso Ofic. 5 Béccar - San Isidro - CABA",
-    "ciudad": "Buenos Aires",
-    "telefono": "+54 11 47197320",
-    "sitioWeb": "http://www.freixenet.com.ar"
+    }
   },
   {
     "id": 2,
@@ -27,11 +23,7 @@
     "coordenadas": {
       "lat": -32.8898,
       "lng": -68.8458
-    },
-    "direccion": "Paseo Sarmiento 250 - 2º Piso Dpto. B - Ciudad",
-    "ciudad": "Mendoza",
-    "telefono": "+54 261 4234230",
-    "sitioWeb": "http://www.flechasdelosandes.com.ar"
+    }
   },
   {
     "id": 3,
@@ -44,11 +36,7 @@
     "coordenadas": {
       "lat": -31.0441,
       "lng": -64.1081
-    },
-    "direccion": "Avda. San Martín 2281 - Colonia Caroya",
-    "ciudad": "Córdoba",
-    "telefono": "+54 3525 466370",
-    "sitioWeb": "http://www.bodegalacaroyense.com.ar"
+    }
   },
   {
     "id": 4,
@@ -61,11 +49,7 @@
     "coordenadas": {
       "lat": -32.8975,
       "lng": -68.8350
-    },
-    "direccion": "Acceso Este Lateral Sur 2133 - Dorrego - Guaymallén",
-    "ciudad": "Mendoza",
-    "telefono": "+54 261 4990010 / 5182855",
-    "sitioWeb": "http://www.domainelebilloud.com"
+    }
   },
   {
     "id": 5,
@@ -78,11 +62,7 @@
     "coordenadas": {
       "lat": -34.5625,
       "lng": -58.4428
-    },
-    "direccion": "Arribeños 1408 Ciudad Autónoma de Buenos Aires Código Postal C 1426",
-    "ciudad": "Buenos Aires",
-    "telefono": "011 2556 7632",
-    "sitioWeb": "https://global.lockton.com/ar/es"
+    }
   },
   {
     "id": 6,
@@ -95,11 +75,7 @@
     "coordenadas": {
       "lat": -32.8899,
       "lng": -68.8456
-    },
-    "direccion": "Fernando Fader 684, Ciudad.",
-    "ciudad": "Mendoza",
-    "telefono": "+54 9 2617 09-2168",
-    "sitioWeb": "http://www.lylservicios.com/"
+    }
   },
   {
     "id": 7,
@@ -112,11 +88,7 @@
     "coordenadas": {
       "lat": -32.8898,
       "lng": -68.8458
-    },
-    "direccion": "Granaderos 888 - Ciudad",
-    "ciudad": "Mendoza",
-    "telefono": "+54 261 4230604 / 20",
-    "sitioWeb": "http://www.bodegacorreas.com.ar"
+    }
   },
   {
     "id": 8,
@@ -129,11 +101,7 @@
     "coordenadas": {
       "lat": -32.8898,
       "lng": -68.8458
-    },
-    "direccion": "Las Heras 340",
-    "ciudad": "Mendoza",
-    "telefono": "4233500",
-    "sitioWeb": "http://www.balbistarhotel.com.ar"
+    }
   },
   {
     "id": 9,
@@ -146,11 +114,7 @@
     "coordenadas": {
       "lat": -34.6022,
       "lng": -58.3780
-    },
-    "direccion": "Cerrito 1070 - Capital Federal",
-    "ciudad": "Buenos Aires",
-    "telefono": "+54 261 4882050",
-    "sitioWeb": "http://www.bodegadanterobino.com"
+    }
   },
   {
     "id": 10,
@@ -163,8 +127,6 @@
     "coordenadas": {
       "lat": -32.9831,
       "lng": -68.8756
-    },
-    "direccion": "San Martín 1745 Luján de Cuyo",
-    "ciudad": "Mendoza"
+    }
   }
 ]
