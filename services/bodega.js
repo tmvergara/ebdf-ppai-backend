@@ -42,3 +42,5 @@ class Bodega {
     return false;
   }
 }
+
+module.exports = Bodega;
