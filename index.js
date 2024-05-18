@@ -21,7 +21,7 @@ class Server {
     const userRouter = require("./routes/user.router");
     this.app.use("/users", userRouter);
 
-    const bodegasRouter = require("./routes/bodegas.router");
+    const bodegasRouter = require("./routes/pantallaImportarActualizacionBV.router");
     this.app.use("/bodegas", bodegasRouter);
   }
 

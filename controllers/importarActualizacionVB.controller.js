@@ -9,9 +9,13 @@ class ControladorImportarActualizacionVB {
         bodega.nombre,
         bodega.descripcion,
         bodega.historias,
-        bodega.periodoActualizacion
+        bodega.periodoActualizacion,
+        new Date(bodega.tieneActualizacion),
+        bodega.imgLogoBodega
       );
     });
+
+    console.log(this.bodegas);
   }
 
   // Operaciones/Metodos Privados
@@ -32,3 +36,5 @@ class ControladorImportarActualizacionVB {
 
   tomarBodegasSeleccionadas() {}
 }
+
+module.exports = ControladorImportarActualizacionVB;
