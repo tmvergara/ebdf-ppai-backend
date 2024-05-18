@@ -13,3 +13,5 @@ class Siguiendo {
         return false;
     }
 }   
+
+module.exports = Siguiendo;

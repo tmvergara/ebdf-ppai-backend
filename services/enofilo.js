@@ -26,3 +26,5 @@ class Enofilo {
     }
 
 }
+
+module.exports = Enofilo;

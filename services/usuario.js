@@ -9,3 +9,5 @@ class Usuario {
         return this.nombre;
     }
 }
+
+module.exports = Usuario;

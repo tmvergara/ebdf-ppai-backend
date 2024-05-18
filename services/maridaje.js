@@ -10,4 +10,4 @@ class Maridaje {
     }
 }
 
-
+module.exports = Maridaje;
