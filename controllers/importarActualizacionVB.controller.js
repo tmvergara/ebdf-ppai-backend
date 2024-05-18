@@ -10,8 +10,9 @@ class ControladorImportarActualizacionVB {
         bodega.descripcion,
         bodega.historias,
         bodega.periodoActualizacion,
-        new Date(bodega.tieneActualizacion),
-        bodega.imgLogoBodega
+        new Date(bodega.ultimaActualizacion),
+        bodega.imgLogoBodega,
+        bodega.coordenadas
       );
     });
 
@@ -23,7 +24,7 @@ class ControladorImportarActualizacionVB {
     this.bodegasConActualizacion = [];
     this.bodegas.forEach((bodega) => {
       if (bodega.tieneActualizacion()) {
-        this.bodegasConActualizacion.push(bodega.getName());
+        this.bodegasConActualizacion.push(bodega.getNombre());
       }
     });
     return this.bodegasConActualizacion;

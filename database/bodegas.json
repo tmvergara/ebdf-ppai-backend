@@ -5,7 +5,7 @@
     "descripcion": "Bodega especializada en espumantes.",
     "historias": "Historia de Freixenet Argentina.",
     "periodoActualizacion": 365,
-    "ultimaActualizacion": "2024-01-15",
+    "ultimaActualizacion": "2023-01-15",
     "imgLogoBodega": "https://www.bodegasdeargentina.org//wp-content/uploads/partners/19_799412406012b67f5141fa74399575e0.jpg",
     "coordenadas": {
       "lat": -34.4713,
@@ -48,7 +48,7 @@
     "imgLogoBodega": "https://www.bodegasdeargentina.org//wp-content/uploads/partners/37_594412dbcbeee4e681b4c0288add8415.jpg",
     "coordenadas": {
       "lat": -32.8975,
-      "lng": -68.8350
+      "lng": -68.835
     }
   },
   {
@@ -113,7 +113,7 @@
     "imgLogoBodega": "https://www.bodegasdeargentina.org//wp-content/uploads/partners/193_42d2e3a3f09caa42233d10c04931c5d0.jpg",
     "coordenadas": {
       "lat": -34.6022,
-      "lng": -58.3780
+      "lng": -58.378
     }
   },
   {

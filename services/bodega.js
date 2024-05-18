@@ -31,11 +31,14 @@ class Bodega {
     fechaVencimiento.setDate(
       fechaVencimiento.getDate() + this.periodoActualziacion
     );
+
+    console.log(this.getNombre());
+    console.log(fechaVencimiento);
     if (this.ultimaActualizacion === null) {
       return true;
     }
 
-    if (fechaVencimiento >= fechaActual) {
+    if (fechaVencimiento <= fechaActual) {
       return true;
     }
 
