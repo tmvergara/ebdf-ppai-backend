@@ -1,0 +1,10 @@
+[
+    {
+        "id": 4,
+        "nombre": "Vino Tinto Gran Reserva",
+        "añada": 2017,
+        "varietal": "Cabernet Sauvignon",
+        "precio": 35.99,
+        "nota_de_cata": 4.7
+    }
+]

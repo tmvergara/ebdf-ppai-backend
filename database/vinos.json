@@ -2,7 +2,7 @@
     {
         "añada": 2019,
         "imgEtiqueta": "https://images.vivino.com/thumbs/HvooITLjRHuzhzzI6XqnGg_pb_x960.png",
-        "bodega": "Bodega A",
+        "bodega": "Bodega Freixenet Argentina",
         "nombre": "Vino Tinto Reserva",
         "notaDeCata": "Aromas a frutas rojas y especias, taninos suaves y final persistente.",
         "precio": 25.99,
@@ -12,7 +12,7 @@
     {
         "añada": 2020,
         "imgEtiqueta": "https://images.vivino.com/thumbs/BSrZZl-kTT-5HlQwX2Ayug_pb_x960.png",
-        "bodega": "Bodega B",
+        "bodega": "Bodega Flechas De Los Andes",
         "nombre": "Vino Blanco Joven",
         "notaDeCata": "Notas cítricas y florales, fresco y ligero.",
         "precio": 12.99,
@@ -22,7 +22,7 @@
     {
         "añada": 2018,
         "imgEtiqueta": "https://images.vivino.com/thumbs/wKyTV_eTTleJniQ2gGebDQ_pb_x960.png",
-        "bodega": "Bodega C",
+        "bodega": "Bodega La Caroyense",
         "nombre": "Vino Rosado Semidulce",
         "notaDeCata": "Aromas a frutos rojos, dulzor equilibrado y refrescante.",
         "precio": 15.99,
@@ -32,7 +32,7 @@
     {
         "añada": 2017,
         "imgEtiqueta": "https://images.vivino.com/thumbs/FjglrW43STyXnzcl8kqYSw_pb_x960.png",
-        "bodega": "Bodega D",
+        "bodega": "Bodega Domaine Le Billoud",
         "nombre": "Vino Tinto Gran Reserva",
         "notaDeCata": "Intenso y estructurado, con notas a frutos secos y madera.",
         "precio": 35.99,
@@ -42,7 +42,7 @@
     {
         "añada": 2016,
         "imgEtiqueta": "https://images.vivino.com/thumbs/HvooITLjRHuzhzzI6XqnGg_pb_x960.png",
-        "bodega": "Bodega E",
+        "bodega": "Bodega L&L Servicios Internacionales",
         "nombre": "Vino Tinto Crianza",
         "notaDeCata": "Equilibrado y estructurado, con aromas a frutas maduras y especias.",
         "precio": 18.99,
@@ -52,7 +52,7 @@
     {
         "añada": 2019,
         "imgEtiqueta": "https://images.vivino.com/thumbs/BSrZZl-kTT-5HlQwX2Ayug_pb_x960.png",
-        "bodega": "Bodega F",
+        "bodega": "Bodega Lockton Argentina",
         "nombre": "Vino Blanco Barrica",
         "notaDeCata": "Elegante y complejo, con toques de madera y frutas blancas.",
         "precio": 28.99,
@@ -62,7 +62,7 @@
     {
         "añada": 2017,
         "imgEtiqueta": "https://images.vivino.com/thumbs/wKyTV_eTTleJniQ2gGebDQ_pb_x960.png",
-        "bodega": "Bodega G",
+        "bodega": "Bodega Luis Segundo Correas",
         "nombre": "Vino Rosado Seco",
         "notaDeCata": "Fresco y afrutado, con notas a frutas rojas y buena acidez.",
         "precio": 14.99,
@@ -72,7 +72,7 @@
     {
         "añada": 2018,
         "imgEtiqueta": "https://images.vivino.com/thumbs/FjglrW43STyXnzcl8kqYSw_pb_x960.png",
-        "bodega": "Bodega H",
+        "bodega": "Bodega Aaron Tubert",
         "nombre": "Vino Tinto Joven",
         "notaDeCata": "Frutal y fácil de beber, con taninos suaves y final afrutado.",
         "precio": 9.99,
@@ -82,7 +82,7 @@
     {
         "añada": 2021,
         "imgEtiqueta": "https://images.vivino.com/thumbs/HvooITLjRHuzhzzI6XqnGg_pb_x960.png",
-        "bodega": "Bodega I",
+        "bodega": "Bodega Dante Robino",
         "nombre": "Vino Tinto Roble",
         "notaDeCata": "Intenso y especiado, con toques de madera y frutos negros.",
         "precio": 22.99,
