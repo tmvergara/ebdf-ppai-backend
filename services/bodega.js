@@ -5,6 +5,7 @@ class Bodega {
     descripcion,
     historias,
     periodoActualziacion,
+    ultimaActualizacion = null,
     imgLogoBodega,
     coordenadas
   ) {
@@ -13,7 +14,7 @@ class Bodega {
       (this.descripcion = descripcion),
       (this.historias = historias),
       (this.periodoActualziacion = periodoActualziacion), // dias
-      (this.ultimaActualizacion = null), // fecha
+      (this.ultimaActualizacion = ultimaActualizacion), // fecha
       (this.imgLogoBodega = imgLogoBodega),
       (this.coordenadas = coordenadas);
   }

@@ -9,13 +9,13 @@ router.get("/actualizar-vinos-bodega/bodegas-con-actualizacion", (req, res) =>
         {
           id: "7ab98f11-9b59-45d2-9d68-8fc452417f8c",
           nombre: "Bodega Argento",
-          direccion: "Juan de la Cruz Videla S/N Cruz, Maipú",
-          ciudad: "Mendoza",
-          telefono: "+54 261 499-0050",
+          coordenadas: {
+            latitud: "",
+            longitud: "",
+          },
           sitioWeb: "http://www.bodegaargento.com",
           imagenLogo:
             "https://www.bodegasdeargentina.org//wp-content/uploads/partners/47_446f6ba15350952b2c4f8c5ab4720504.jpg",
-          checked: false,
           pais: "Argentina", // Added pais attribute
         },
         {
@@ -79,7 +79,7 @@ router.get("/actualizar-vinos-bodega/bodegas-con-actualizacion", (req, res) =>
           pais: "Argentina", // Added pais attribute
         },
       ]),
-    2000
+    500
   )
 );
 
