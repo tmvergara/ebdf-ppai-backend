@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "nombre": "Lockton Argentina",
+    "nombre": "Bodega Lockton Argentina",
     "descripcion": "Consultora de seguros y riesgos.",
     "historias": "Historia de Lockton Argentina.",
     "periodoActualizacion": 365,
@@ -66,7 +66,7 @@
   },
   {
     "id": 6,
-    "nombre": "L&L Servicios Internacionales",
+    "nombre": "Bodega L&L Servicios Internacionales",
     "descripcion": "Servicios de importación y exportación.",
     "historias": "Historia de L&L Servicios Internacionales.",
     "periodoActualizacion": 30,
