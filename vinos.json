@@ -1,0 +1,92 @@
+[
+    {
+        "añada": 2019,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/HvooITLjRHuzhzzI6XqnGg_pb_x960.png",
+        "bodega": "Bodega A",
+        "nombre": "Vino Tinto Reserva",
+        "notaDeCata": "Aromas a frutas rojas y especias, taninos suaves y final persistente.",
+        "precio": 25.99,
+        "varietal": "Tempranillo",
+        "maridaje": "Carnes rojas a la parrilla"
+    },
+    {
+        "añada": 2020,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/BSrZZl-kTT-5HlQwX2Ayug_pb_x960.png",
+        "bodega": "Bodega B",
+        "nombre": "Vino Blanco Joven",
+        "notaDeCata": "Notas cítricas y florales, fresco y ligero.",
+        "precio": 12.99,
+        "varietal": "Sauvignon Blanc",
+        "maridaje": "Ensaladas y pescados blancos"
+    },
+    {
+        "añada": 2018,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/wKyTV_eTTleJniQ2gGebDQ_pb_x960.png",
+        "bodega": "Bodega C",
+        "nombre": "Vino Rosado Semidulce",
+        "notaDeCata": "Aromas a frutos rojos, dulzor equilibrado y refrescante.",
+        "precio": 15.99,
+        "varietal": "Garnacha",
+        "maridaje": "Postres y quesos suaves"
+    },
+    {
+        "añada": 2017,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/FjglrW43STyXnzcl8kqYSw_pb_x960.png",
+        "bodega": "Bodega D",
+        "nombre": "Vino Tinto Gran Reserva",
+        "notaDeCata": "Intenso y estructurado, con notas a frutos secos y madera.",
+        "precio": 35.99,
+        "varietal": "Cabernet Sauvignon",
+        "maridaje": "Carnes asadas y quesos añejos"
+    },
+    {
+        "añada": 2016,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/HvooITLjRHuzhzzI6XqnGg_pb_x960.png",
+        "bodega": "Bodega E",
+        "nombre": "Vino Tinto Crianza",
+        "notaDeCata": "Equilibrado y estructurado, con aromas a frutas maduras y especias.",
+        "precio": 18.99,
+        "varietal": "Merlot",
+        "maridaje": "Carnes a la brasa y quesos curados"
+    },
+    {
+        "añada": 2019,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/BSrZZl-kTT-5HlQwX2Ayug_pb_x960.png",
+        "bodega": "Bodega F",
+        "nombre": "Vino Blanco Barrica",
+        "notaDeCata": "Elegante y complejo, con toques de madera y frutas blancas.",
+        "precio": 28.99,
+        "varietal": "Chardonnay",
+        "maridaje": "Pescados grasos y mariscos"
+    },
+    {
+        "añada": 2017,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/wKyTV_eTTleJniQ2gGebDQ_pb_x960.png",
+        "bodega": "Bodega G",
+        "nombre": "Vino Rosado Seco",
+        "notaDeCata": "Fresco y afrutado, con notas a frutas rojas y buena acidez.",
+        "precio": 14.99,
+        "varietal": "Tempranillo",
+        "maridaje": "Aperitivos y cocina oriental"
+    },
+    {
+        "añada": 2018,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/FjglrW43STyXnzcl8kqYSw_pb_x960.png",
+        "bodega": "Bodega H",
+        "nombre": "Vino Tinto Joven",
+        "notaDeCata": "Frutal y fácil de beber, con taninos suaves y final afrutado.",
+        "precio": 9.99,
+        "varietal": "Syrah",
+        "maridaje": "Pizzas y pastas con salsas suaves"
+    },
+    {
+        "añada": 2021,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/HvooITLjRHuzhzzI6XqnGg_pb_x960.png",
+        "bodega": "Bodega I",
+        "nombre": "Vino Tinto Roble",
+        "notaDeCata": "Intenso y especiado, con toques de madera y frutos negros.",
+        "precio": 22.99,
+        "varietal": "Malbec",
+        "maridaje": "Carnes a la parrilla y quesos semicurados"
+    }
+]
