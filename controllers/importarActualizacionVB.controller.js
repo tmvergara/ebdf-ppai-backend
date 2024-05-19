@@ -1,5 +1,6 @@
 const bodegas = require("../database/bodegas.json");
 const vinos = require("../database/vinos.json");
+const actualizacionBodegas = require("../database/actualizacionesBodegas/actualizacionBodegas.json");
 const Bodega = require("../services/bodega");
 const Vino = require("../services/vino");
 
@@ -79,6 +80,12 @@ class ControladorImportarActualizacionVB {
     como eso excede el alcance de esta impelmentacion, nosotros metimos todas
     las actualizaciones en un solo archivo y el siguiente codigo busca las mismas
     segun el nombre de la bodega: enfatizamos ACA SE DEBERIA EJECUTAR LA API CALL A LA BODEGA ESPECIFICA.*/
+    const actualizacion = actualizacionBodegas.find((bodega) => {
+      const nombreBodegaActualizacion = Object.keys(bodega)[0]; // Obtener el nombre de la bodega
+      return nombreBodegaActualizacion === nombreBodega;
+    });
+
+    console.log(actualizacion);
   }
 
   // Operaciones/Metodos Publicas
