@@ -33,16 +33,18 @@ class ControladorImportarActualizacionVB {
         return null;
       }
 
-      return new Vino(
+      const nuevoVino = new Vino(
         vino.añada,
         vino.imgEtiqueta,
         buscarBodega(vino.bodega, this.bodegas),
         vino.nombre,
         vino.notaDeCata,
         vino.precio,
-        vino.varietal,
         vino.maridaje
       );
+
+      nuevoVino.crearVarietal(vino.varietal);
+      return nuevoVino;
     });
 
     console.log(this.vinos);
