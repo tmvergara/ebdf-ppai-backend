@@ -88,11 +88,12 @@ class ControladorImportarActualizacionVB {
       vinoActualizacion.nombre,
       vinoActualizacion.notaDeCata,
       vinoActualizacion.precio,
-      vinoActualizacion.maridaje
+      null
     );
 
     nuevoVino.crearVarietal(vinoActualizacion.varietal);
     this.vinos.push(nuevoVino);
+    return nuevoVino;
   }
 
   #actualizarDatosBodega(nombreBodega) {
@@ -128,8 +129,22 @@ class ControladorImportarActualizacionVB {
         });
       } else {
         // Es creacion
+        const nuevoVino = this.#crearVino(actualizacion);
+        resumenActualizacion.push({
+          nombre: nuevoVino.nombre,
+          precio: nuevoVino.precio,
+          notaDeCata: nuevoVino.notaDeCata,
+          imgEtiqueta: vino.imgEtiqueta,
+          varietal: nuevoVino.varietal.descripcion,
+          tipoUpdate: "creacion",
+        });
       }
     });
+    const bodegaActualizada = this.bodegas.find((bodega) => {
+      return bodega.getNombre() === nombreBodega;
+    });
+    bodegaActualizada.actualizarFechaUltimaActualizacion();
+    return resumenActualizacion;
   }
 
   // Operaciones/Metodos Publicas
@@ -140,7 +155,8 @@ class ControladorImportarActualizacionVB {
   tomarBodegasSeleccionadas(req, res) {
     this.bodegasSeleccionadas = req.body.bodegasSeleccionadas;
     if (this.#verificarSeleccionUnica()) {
-      this.#actualizarDatosBodega(this.bodegasSeleccionadas[0]);
+      const resumenActualizacion = this.#actualizarDatosBodega(this.bodegasSeleccionadas[0]);
+      res.status(200).json(resumenActualizacion);
     } else {
       res.status(500).json({
         error: "Este flujo del caso de uso no esta implementado.",

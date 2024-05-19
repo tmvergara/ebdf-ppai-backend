@@ -55,8 +55,10 @@ class Bodega {
     if (fechaVencimiento <= fechaActual) {
       return true;
     }
-
     return false;
+  }
+  actualizarFechaUltimaActualizacion() {
+    this.ultimaActualizacion = new Date();
   }
 }
 
