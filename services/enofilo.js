@@ -17,15 +17,12 @@ class Enofilo {
     }
 
     // Método para verificar si el usuario sigue a una bodega
-    sigueABodega(bodegas) {
-        for (let i = 0; i < bodegas.length; i++) {
-            if (Siguiendo.sosDeBodega(bodegas[i])) {
+    sigueABodega(bodega) {
+            if (Siguiendo.sosDeBodega(bodega)) {
                 return true;
             }
             return false;
         }
     }
-
-}
 
 module.exports = Enofilo;
