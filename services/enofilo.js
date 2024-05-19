@@ -5,9 +5,10 @@ class Enofilo {
     // Constructor de la clase
     constructor() {
         this.apellido = apellido,
-            this.nombre = nombre,
-            this.imagenPerfil = imagenPerfil,
-            this.usuario = usuario;
+        this.nombre = nombre,
+        this.imagenPerfil = imagenPerfil,
+        this.usuario = usuario;
+        this.amigo = amigo
     }
 
     // Método para obtener el nombre del usuario
