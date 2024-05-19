@@ -1,5 +1,5 @@
 const Usuario = require('./usuario.js');
-const Siguiendo = require('./siguiendo.js');
+
 
 class Enofilo {
     // Constructor de la clase
@@ -13,12 +13,12 @@ class Enofilo {
 
     // Método para obtener el nombre del usuario
     getNombreUsuario() {
-        return Usuario.getNombre();
+        return this.usuario.getNombre();
     }
 
     // Método para verificar si el usuario sigue a una bodega
     sigueABodega(bodega) {
-            if (Siguiendo.sosDeBodega(bodega)) {
+            if (this.siguiendo.sosDeBodega(bodega)) {
                 return true;
             }
             return false;

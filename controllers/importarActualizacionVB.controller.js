@@ -1,9 +1,14 @@
 const bodegas = require("../database/bodegas.json");
 const vinos = require("../database/vinos.json");
 const actualizacionBodegas = require("../database/actualizacionesBodegas/actualizacionBodegas.json");
+const enofilos = require("../database/enofilos.json");
 const Bodega = require("../services/bodega");
 const Vino = require("../services/vino");
 const Maridaje = require("../services/maridaje");
+const Enofilo = require("../services/enofilo");
+const Siguiendo = require("../services/siguiendo");
+const Usuario = require("../services/usuario");
+const InterfazNotificacionesPush = require("../services/interfazNotificacionesPush.boundary");
 
 class ControladorImportarActualizacionVB {
   constructor() {
@@ -34,6 +39,16 @@ class ControladorImportarActualizacionVB {
         console.log("La bodega no existe...");
         return null;
       }
+
+      this.enofilos = enofilos.map((enofilo) => {
+        return new Enofilo(
+          enofilo.apellido,
+          enofilo.nombre,
+          enofilo.imagenPerfil,
+          new Usuario(enofilo.usuario, null),
+          new Siguiendo(enofilo.siguiendo.fechaInicio, null, enofilo.siguiendo.bodega, null)
+        );
+      });
 
       const nuevoVino = new Vino(
         vino.añada,
@@ -94,6 +109,8 @@ class ControladorImportarActualizacionVB {
     return nuevoVino;
   }
 
+
+
   #actualizarDatosBodega(nombreBodega) {
     /* Aca se supone que se hace la llamada a la API de la bodega seleccionada, 
     como eso excede el alcance de esta impelmentacion, nosotros metimos todas
@@ -142,6 +159,17 @@ class ControladorImportarActualizacionVB {
     return [{ ...bodegaActualizada, updates: resumenActualizacion }];
   }
 
+  #buscarSeguidoresDeBodega(nombreBodega) {
+    const seguidores = [];
+    this.enofilos.forEach((enofilo) => {
+      if (enofilo.sigueABodega(nombreBodega)) {
+        seguidores.push(enofilo.getNombreUsuario());
+      }
+    });
+    const notificaciones = new InterfazNotificacionesPush();
+    notificaciones.notificarNovedades(seguidores);
+  }
+
   // Operaciones/Metodos Publicas
   opcionImportarActualizacionVentana(req, res) {
     res.status(200).json(this.#buscarBodegasConActualizacion());
@@ -154,6 +182,7 @@ class ControladorImportarActualizacionVB {
         this.bodegasSeleccionadas[0]
       );
       res.status(200).json(resumenActualizacion);
+      this.#buscarSeguidoresDeBodega(this.bodegasSeleccionadas[0]);
     } else {
       res.status(500).json({
         error: "Este flujo del caso de uso no esta implementado.",
