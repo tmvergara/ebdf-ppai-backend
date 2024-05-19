@@ -74,7 +74,12 @@ class ControladorImportarActualizacionVB {
     return false;
   }
 
-  #actualizarDatosBodega() {}
+  #actualizarDatosBodega(nombreBodega) {
+    /* Aca se supone que se hace la llamada a la API de la bodega seleccionada, 
+    como eso excede el alcance de esta impelmentacion, nosotros metimos todas
+    las actualizaciones en un solo archivo y el siguiente codigo busca las mismas
+    segun el nombre de la bodega: enfatizamos ACA SE DEBERIA EJECUTAR LA API CALL A LA BODEGA ESPECIFICA.*/
+  }
 
   // Operaciones/Metodos Publicas
   opcionImportarActualizacionVentana(req, res) {
@@ -84,7 +89,7 @@ class ControladorImportarActualizacionVB {
   tomarBodegasSeleccionadas(req, res) {
     this.bodegasSeleccionadas = req.body.bodegasSeleccionadas;
     if (this.#verificarSeleccionUnica()) {
-      this.#actualizarDatosBodega();
+      this.#actualizarDatosBodega(this.bodegasSeleccionadas[0]);
     } else {
       res.status(500).json({
         error: "Este flujo del caso de uso no esta implementado.",
