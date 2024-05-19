@@ -7,7 +7,8 @@ class Bodega {
     periodoActualziacion,
     ultimaActualizacion = null,
     imgLogoBodega,
-    coordenadas
+    coordenadas,
+    sitioWeb
   ) {
     (this.id = id),
       (this.nombre = nombre),
@@ -16,11 +17,24 @@ class Bodega {
       (this.periodoActualziacion = periodoActualziacion), // dias
       (this.ultimaActualizacion = ultimaActualizacion), // fecha
       (this.imgLogoBodega = imgLogoBodega),
-      (this.coordenadas = coordenadas);
+      (this.coordenadas = coordenadas),
+      (this.sitioWeb = sitioWeb);
   }
 
   getNombre() {
     return this.nombre;
+  }
+
+  getSitioWeb() {
+    return this.sitioWeb;
+  }
+
+  getCoordenadas() {
+    return this.coordenadas;
+  }
+
+  getImgLogoBodega() {
+    return this.imgLogoBodega;
   }
 
   tieneActualizacion() {

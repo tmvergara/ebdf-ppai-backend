@@ -14,7 +14,8 @@ class ControladorImportarActualizacionVB {
         bodega.periodoActualizacion,
         new Date(bodega.ultimaActualizacion),
         bodega.imgLogoBodega,
-        bodega.coordenadas
+        bodega.coordenadas,
+        bodega.sitioWeb || ""
       );
     });
 
@@ -52,7 +53,13 @@ class ControladorImportarActualizacionVB {
     this.bodegasConActualizacion = [];
     this.bodegas.forEach((bodega) => {
       if (bodega.tieneActualizacion()) {
-        this.bodegasConActualizacion.push(bodega.getNombre());
+        this.bodegasConActualizacion.push({
+          id: bodega.getNombre(), // Campo necesario para la correcta identificacion y renderizacion de listas en el react.
+          nombre: bodega.getNombre(),
+          coordenadas: bodega.getCoordenadas(),
+          sitioWeb: bodega.getSitioWeb(),
+          imgLogoBodega: bodega.getImgLogoBodega(),
+        });
       }
     });
     return this.bodegasConActualizacion;

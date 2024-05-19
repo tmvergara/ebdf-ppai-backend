@@ -7,6 +7,7 @@
     "periodoActualizacion": 365,
     "ultimaActualizacion": "2023-01-15",
     "imgLogoBodega": "https://www.bodegasdeargentina.org//wp-content/uploads/partners/19_799412406012b67f5141fa74399575e0.jpg",
+    "sitioWeb": "http://www.freixenet.com.ar",
     "coordenadas": {
       "lat": -34.4713,
       "lng": -58.5555
@@ -20,6 +21,7 @@
     "periodoActualizacion": 180,
     "ultimaActualizacion": "2023-12-10",
     "imgLogoBodega": "https://www.bodegasdeargentina.org//wp-content/uploads/partners/159_b05db0957d4f6eeac441c8f6358d17a2.jpg",
+    "sitioWeb": "http://www.flechasdelosandes.com.ar",
     "coordenadas": {
       "lat": -32.8898,
       "lng": -68.8458
@@ -33,6 +35,7 @@
     "periodoActualizacion": 90,
     "ultimaActualizacion": "2023-11-20",
     "imgLogoBodega": "https://www.bodegasdeargentina.org//wp-content/uploads/partners/155_334fb1dd99c20e75fe0df768f9198cf5.jpg",
+    "sitioWeb": "http://www.bodegalacaroyense.com.ar",
     "coordenadas": {
       "lat": -31.0441,
       "lng": -64.1081
@@ -46,6 +49,7 @@
     "periodoActualizacion": 365,
     "ultimaActualizacion": "2023-10-05",
     "imgLogoBodega": "https://www.bodegasdeargentina.org//wp-content/uploads/partners/37_594412dbcbeee4e681b4c0288add8415.jpg",
+    "sitioWeb": "http://www.domainelebilloud.com",
     "coordenadas": {
       "lat": -32.8975,
       "lng": -68.835
@@ -85,6 +89,7 @@
     "periodoActualizacion": 365,
     "ultimaActualizacion": "2023-09-25",
     "imgLogoBodega": "https://www.bodegasdeargentina.org//wp-content/uploads/partners/29_608812743f3e95b3a9a0238bada1181c.jpg",
+    "sitioWeb": "http://www.bodegacorreas.com.ar",
     "coordenadas": {
       "lat": -32.8898,
       "lng": -68.8458
@@ -97,7 +102,7 @@
     "historias": "Historia de Aaron Tubert.",
     "periodoActualizacion": 90,
     "ultimaActualizacion": "2024-02-18",
-    "imgLogoBodega": "https://www.bodegasdeargentina.org//",
+    "imgLogoBodega": "https://www.bodegasdeargentina.org/wp-content/uploads/partners/193_42d2e3a3f09caa42233d10c04931c5d0.jpg",
     "coordenadas": {
       "lat": -32.8898,
       "lng": -68.8458
@@ -111,6 +116,7 @@
     "periodoActualizacion": 365,
     "ultimaActualizacion": "2024-04-05",
     "imgLogoBodega": "https://www.bodegasdeargentina.org//wp-content/uploads/partners/193_42d2e3a3f09caa42233d10c04931c5d0.jpg",
+    "sitioWeb": "http://www.bodegadanterobino.com",
     "coordenadas": {
       "lat": -34.6022,
       "lng": -58.378
@@ -124,6 +130,7 @@
     "periodoActualizacion": 365,
     "ultimaActualizacion": "2024-03-01",
     "imgLogoBodega": "https://www.bodegasdeargentina.org//wp-content/uploads/partners/27_772be6bee3c1b94099c4c5311fdd0b5e.jpg",
+    "sitioWeb": "http://www.rocawines.com",
     "coordenadas": {
       "lat": -32.9831,
       "lng": -68.8756
