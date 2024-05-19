@@ -45,9 +45,6 @@ class Bodega {
     fechaVencimiento.setMonth(
       fechaVencimiento.getMonth() + this.periodoActualziacion
     );
-
-    console.log(this.getNombre());
-    console.log(fechaVencimiento);
     if (this.ultimaActualizacion === null) {
       return true;
     }
