@@ -1,9 +1,11 @@
 class Varietal {
     constructor(
         descripcion,
-        porcentajeComposicion
+        porcentajeComposicion,
+        tipoUva
     ) {
         this.descripcion = descripcion;
         this.porcentajeComposicion = porcentajeComposicion;
+        this.tipoUva = tipoUva;
     }
 }
