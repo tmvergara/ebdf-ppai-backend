@@ -3,6 +3,7 @@ const vinos = require("../database/vinos.json");
 const actualizacionBodegas = require("../database/actualizacionesBodegas/actualizacionBodegas.json");
 const Bodega = require("../services/bodega");
 const Vino = require("../services/vino");
+const Maridaje = require("../services/maridaje");
 
 class ControladorImportarActualizacionVB {
   constructor() {
@@ -41,7 +42,7 @@ class ControladorImportarActualizacionVB {
         vino.nombre,
         vino.notaDeCata,
         vino.precio,
-        vino.maridaje
+        new Maridaje(vino.maridaje.nombre, vino.maridaje.descripcion)
       );
 
       nuevoVino.crearVarietal(vino.varietal);

@@ -14,7 +14,10 @@
         "descripcion": "Variedad de uva tinta utilizada para hacer vino en España y Portugal."
       }
     },
-    "maridaje": "Carnes rojas a la parrilla"
+    "maridaje": {
+      "nombre": "Carnes rojas y quesos curados",
+      "descripcion": "Ideal para acompañar carnes rojas y quesos curados."
+    }
   },
   {
     "añada": 2020,
@@ -31,7 +34,10 @@
         "descripcion": "Variedad de uva verde utilizada para hacer vino blanco."
       }
     },
-    "maridaje": "Ensaladas y pescados blancos"
+    "maridaje": {
+      "nombre": "Pescados y mariscos",
+      "descripcion": "Perfecto para acompañar pescados y mariscos frescos."
+    }
   },
   {
     "añada": 2018,
@@ -48,7 +54,10 @@
         "descripcion": "Variedad de uva tinta utilizada para hacer vino en España, Francia y otras regiones."
       }
     },
-    "maridaje": "Postres y quesos suaves"
+    "maridaje": {
+      "nombre": "Pasta con salsas ricas",
+      "descripcion": "Excelente para maridar con pastas acompañadas de salsas ricas y cremosas."
+    }
   },
   {
     "añada": 2017,
@@ -65,7 +74,10 @@
         "descripcion": "Variedad de uva tinta utilizada para hacer vino en todo el mundo."
       }
     },
-    "maridaje": "Carnes asadas y quesos añejos"
+    "maridaje": {
+      "nombre": "Pasta con salsas ricas",
+      "descripcion": "Excelente para maridar con pastas acompañadas de salsas ricas y cremosas."
+    }
   },
   {
     "añada": 2016,
@@ -99,7 +111,10 @@
         "descripcion": "Variedad de uva verde utilizada para hacer vino blanco en todo el mundo."
       }
     },
-    "maridaje": "Pescados grasos y mariscos"
+    "maridaje": {
+      "nombre": "Pescados y mariscos",
+      "descripcion": "Perfecto para acompañar pescados y mariscos frescos."
+    }
   },
   {
     "añada": 2017,
@@ -116,7 +131,10 @@
         "descripcion": "Variedad de uva tinta utilizada para hacer vino en España y Portugal."
       }
     },
-    "maridaje": "Aperitivos y cocina oriental"
+    "maridaje": {
+      "nombre": "Quesos suaves y frutos secos",
+      "descripcion": "Ideal para acompañar quesos suaves y una variedad de frutos secos."
+    }
   },
   {
     "añada": 2018,
@@ -133,7 +151,10 @@
         "descripcion": "Variedad de uva tinta utilizada para hacer vino en todo el mundo."
       }
     },
-    "maridaje": "Pizzas y pastas con salsas suaves"
+    "maridaje": {
+      "nombre": "Quesos suaves y frutos secos",
+      "descripcion": "Ideal para acompañar quesos suaves y una variedad de frutos secos."
+    }
   },
   {
     "añada": 2021,
@@ -150,7 +171,10 @@
         "descripcion": "Variedad de uva tinta utilizada para hacer vino en Argentina y otros países."
       }
     },
-    "maridaje": "Carnes a la parrilla y quesos semicurados"
+    "maridaje": {
+      "nombre": "Carnes rojas y quesos curados",
+      "descripcion": "Ideal para acompañar carnes rojas y quesos curados."
+    }
   }
   
 ]
