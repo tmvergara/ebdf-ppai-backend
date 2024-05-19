@@ -76,8 +76,10 @@ class ControladorImportarActualizacionVB {
   }
 
   #actualizarVinoExistente(vino, vinoActualizacion) {
-    vino.actualizarDatosVino;
+    vino.actualizarDatosVino(vinoActualizacion);
   }
+
+  #crearVino(vinoActualizacion) {}
 
   #actualizarDatosBodega(nombreBodega) {
     /* Aca se supone que se hace la llamada a la API de la bodega seleccionada, 
@@ -89,15 +91,27 @@ class ControladorImportarActualizacionVB {
       return nombreBodegaActualizacion === nombreBodega;
     });
 
-    console.log(actualizacion);
+    console.log(actualizaciones);
 
-    actualizaciones.forEach((actualizacion) => {
+    const resumenActualizacion = [];
+
+    actualizaciones[nombreBodega].forEach((actualizacion) => {
       const vino = this.vinos.find(
         (vino) => vino.nombre === actualizacion.nombre
       );
 
       if (vino) {
         // Es actualizacion
+        console.log("Actualiazndo");
+        this.#actualizarVinoExistente(vino, actualizacion);
+        resumenActualizacion.push({
+          nombre: actualizacion.nombre,
+          precio: actualizacion.precio,
+          notaDeCata: actualizacion.notaDeCata,
+          imgEtiqueta: vino.imgEtiqueta,
+          varietal: actualizacion.varietal.descripcion,
+          tipoUpdate: "actualizacion",
+        });
       } else {
         // Es creacion
       }
