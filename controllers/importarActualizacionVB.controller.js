@@ -79,7 +79,20 @@ class ControladorImportarActualizacionVB {
     vino.actualizarDatosVino(vinoActualizacion);
   }
 
-  #crearVino(vinoActualizacion) {}
+  #crearVino(vinoActualizacion) {
+    const nuevoVino = new Vino(
+      vinoActualizacion.añada,
+      vinoActualizacion.imgEtiqueta,
+      vinoActualizacion.bodega,
+      vinoActualizacion.nombre,
+      vinoActualizacion.notaDeCata,
+      vinoActualizacion.precio,
+      vinoActualizacion.maridaje
+    );
+
+    nuevoVino.crearVarietal(vinoActualizacion.varietal);
+    this.vinos.push(nuevoVino);
+  }
 
   #actualizarDatosBodega(nombreBodega) {
     /* Aca se supone que se hace la llamada a la API de la bodega seleccionada, 
