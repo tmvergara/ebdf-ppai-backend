@@ -48,8 +48,6 @@ class ControladorImportarActualizacionVB {
       nuevoVino.crearVarietal(vino.varietal);
       return nuevoVino;
     });
-
-    console.log(this.vinos);
   }
 
   // Operaciones/Metodos Privados
@@ -106,8 +104,6 @@ class ControladorImportarActualizacionVB {
       return nombreBodegaActualizacion === nombreBodega;
     });
 
-    console.log(actualizaciones);
-
     const resumenActualizacion = [];
 
     actualizaciones[nombreBodega].forEach((actualizacion) => {
@@ -117,14 +113,13 @@ class ControladorImportarActualizacionVB {
 
       if (vino) {
         // Es actualizacion
-        console.log("Actualiazndo");
         this.#actualizarVinoExistente(vino, actualizacion);
         resumenActualizacion.push({
           nombre: actualizacion.nombre,
           precio: actualizacion.precio,
           notaDeCata: actualizacion.notaDeCata,
           imgEtiqueta: vino.imgEtiqueta,
-          varietal: actualizacion.varietal.descripcion,
+          varietal: actualizacion.varietal.tipoUva.nombre,
           tipoUpdate: "actualizacion",
         });
       } else {
@@ -134,8 +129,8 @@ class ControladorImportarActualizacionVB {
           nombre: nuevoVino.nombre,
           precio: nuevoVino.precio,
           notaDeCata: nuevoVino.notaDeCata,
-          imgEtiqueta: vino.imgEtiqueta,
-          varietal: nuevoVino.varietal.descripcion,
+          imgEtiqueta: nuevoVino.imgEtiqueta,
+          varietal: nuevoVino.varietal.tipoUva.nombre,
           tipoUpdate: "creacion",
         });
       }
@@ -144,7 +139,7 @@ class ControladorImportarActualizacionVB {
       return bodega.getNombre() === nombreBodega;
     });
     bodegaActualizada.actualizarFechaUltimaActualizacion();
-    return resumenActualizacion;
+    return [{ ...bodegaActualizada, updates: resumenActualizacion }];
   }
 
   // Operaciones/Metodos Publicas
@@ -155,7 +150,9 @@ class ControladorImportarActualizacionVB {
   tomarBodegasSeleccionadas(req, res) {
     this.bodegasSeleccionadas = req.body.bodegasSeleccionadas;
     if (this.#verificarSeleccionUnica()) {
-      const resumenActualizacion = this.#actualizarDatosBodega(this.bodegasSeleccionadas[0]);
+      const resumenActualizacion = this.#actualizarDatosBodega(
+        this.bodegasSeleccionadas[0]
+      );
       res.status(200).json(resumenActualizacion);
     } else {
       res.status(500).json({
