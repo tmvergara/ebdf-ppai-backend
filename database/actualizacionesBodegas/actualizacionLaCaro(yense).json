@@ -3,7 +3,14 @@
         "id": 1,
         "nombre": "Vino Tinto Reserva",
         "añada": 2020,
-        "varietal": "Tempranillo",
+        "varietal":  {
+            "descripcion": "Vino tinto de calidad superior, elaborado con uvas de la mejor calidad y envejecido en barricas de roble durante un periodo de tiempo superior al de un vino reserva.",
+            "porcentajeComposicion": 75,
+            "tipoUva": {
+                "nombre": "Cabernet Sauvignon",
+                "descripcion": "Una de las variedades de uva más reconocidas en el mundo, famosa por su sabor intenso y su capacidad de envejecimiento. Utilizada en la elaboración de algunos de los mejores vinos tintos."
+            }
+        },
         "precio": 27.50,
         "nota_de_cata": 4.5
     },
@@ -11,7 +18,14 @@
         "id": 3,
         "nombre": "Vino Rosado Semidulce",
         "añada": 2019,
-        "varietal": "Garnacha",
+        "varietal": {
+            "descripcion": "Vino tinto de calidad superior, elaborado con uvas de la mejor calidad y envejecido en barricas de roble durante un periodo de tiempo superior al de un vino reserva.",
+            "porcentajeComposicion": 85,
+            "tipoUva": {
+                "nombre": "Merlot",
+                "descripcion": "Variedad de uva tinta conocida por su suavidad y sabor afrutado. Es una de las uvas más utilizadas en la producción de vinos tintos en todo el mundo."
+            }
+        },
         "precio": 18.99,
         "nota_de_cata": 4.0
     },
@@ -19,7 +33,14 @@
         "id": 15,
         "nombre": "Vino Blanco Seco",
         "añada": 2020,
-        "varietal": "Chardonnay",
+        "varietal": {
+            "descripcion": "Vino tinto de calidad superior, elaborado con uvas de la mejor calidad y envejecido en barricas de roble durante un periodo de tiempo superior al de un vino reserva.",
+            "porcentajeComposicion": 70,
+            "tipoUva": {
+                "nombre": "Syrah",
+                "descripcion": "Uva tinta conocida por producir vinos con un profundo color oscuro, con sabores intensos y especiados. Muy popular en regiones vinícolas de Francia y Australia."
+            }
+        },
         "precio": 19.99,
         "nota_de_cata": 4.0
     }
