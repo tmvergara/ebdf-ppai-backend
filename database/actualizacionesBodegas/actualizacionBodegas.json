@@ -1,0 +1,178 @@
+{
+    "Bodega Aaron Tubert": [
+        {
+            "id": 4,
+            "nombre": "Vino Tinto Gran Reserva",
+            "añada": 2017,
+            "varietal": {
+                "descripcion": "Vino tinto de calidad superior, elaborado con uvas de la mejor calidad y envejecido en barricas de roble durante un periodo de tiempo superior al de un vino reserva.",
+                "porcentajeComposicion": 80,
+                "tipoUva": {
+                    "nombre": "Tempranillo",
+                    "descripcion": "Uva tinta de calidad, muy utilizada en la elaboración de vinos tintos de calidad en España. Es la variedad más importante de la península ibérica y la tercera más cultivada en el mundo."
+                }
+            },
+            "precio": 35.99,
+            "nota_de_cata": 4.7
+        },
+        {
+            "id": 5,
+            "nombre": "Vino Blanco Barrica",
+            "añada": 2021,
+            "varietal": {
+                "descripcion": "Vino blanco de calidad superior, elaborado con uvas seleccionadas y envejecido en barricas de roble francés para una mayor complejidad.",
+                "porcentajeComposicion": 85,
+                "tipoUva": {
+                    "nombre": "Chardonnay",
+                    "descripcion": "Uva blanca de alta calidad, muy popular en la elaboración de vinos blancos en todo el mundo. Conocida por su versatilidad y capacidad de envejecer bien."
+                }
+            },
+            "precio": 31.99,
+            "nota_de_cata": 4.2
+        },
+        {
+            "id": 11,
+            "nombre": "Vino Tinto Reserva Especial",
+            "añada": 2018,
+            "varietal": {
+                "descripcion": "Vino tinto de calidad, elaborado con una mezcla de uvas seleccionadas y envejecido en barricas de roble durante un periodo extendido.",
+                "porcentajeComposicion": 70,
+                "tipoUva": {
+                    "nombre": "Cabernet Sauvignon",
+                    "descripcion": "Una de las variedades de uva tinta más famosas y cultivadas en el mundo, conocida por producir vinos robustos y con gran potencial de envejecimiento."
+                }
+            },
+            "precio": 35.99,
+            "nota_de_cata": 4.3
+        }
+    ],
+
+    "Bodega Freixenet Argentina": [
+        {
+            "id": 6,
+            "nombre": "Vino Rosado Seco",
+            "añada": 2017,
+            "varietal": {
+                "descripcion": "Vino tinto de calidad superior, elaborado con uvas de la mejor calidad y envejecido en barricas de roble americano para un sabor único.",
+                "porcentajeComposicion": 90,
+                "tipoUva": {
+                    "nombre": "Merlot",
+                    "descripcion": "Uva tinta de gran popularidad, conocida por su suavidad y capacidad de producir vinos accesibles y de alta calidad."
+                }
+            },
+            "precio": 14.99,
+            "nota_de_cata": 4.2
+        },
+        {
+            "id": 7,
+            "nombre": "Vino Rosado Seco",
+            "añada": 2018,
+            "varietal": {
+                "descripcion": "Vino rosado de calidad, elaborado con una mezcla de uvas tintas y blancas seleccionadas, envejecido en barricas de roble durante un periodo adecuado.",
+                "porcentajeComposicion": 75,
+                "tipoUva": {
+                    "nombre": "Garnacha",
+                    "descripcion": "Variedad de uva tinta muy utilizada en la producción de vinos rosados y tintos en España, conocida por su capacidad de producir vinos afrutados y aromáticos."
+                }
+            },
+            "precio": 16.99,
+            "nota_de_cata": 3.9
+        },
+        {
+            "id": 9,
+            "nombre": "Vino Tinto Roble",
+            "añada": 2023,
+            "varietal": {
+                "descripcion": "Vino blanco de calidad superior, elaborado con uvas de la mejor calidad y fermentado en barricas de roble para un perfil complejo.",
+                "porcentajeComposicion": 80,
+                "tipoUva": {
+                    "nombre": "Sauvignon Blanc",
+                    "descripcion": "Variedad de uva blanca muy popular, conocida por sus vinos frescos y aromáticos con notas cítricas y herbales."
+                }
+            },
+            "precio": 29.99,
+            "nota_de_cata": 4.6
+        }
+    ],
+    "Bodega La Caroyense": [
+        {
+            "id": 1,
+            "nombre": "Vino Tinto Reserva",
+            "añada": 2020,
+            "varietal":  {
+                "descripcion": "Vino tinto de calidad superior, elaborado con uvas de la mejor calidad y envejecido en barricas de roble durante un periodo de tiempo superior al de un vino reserva.",
+                "porcentajeComposicion": 75,
+                "tipoUva": {
+                    "nombre": "Cabernet Sauvignon",
+                    "descripcion": "Una de las variedades de uva más reconocidas en el mundo, famosa por su sabor intenso y su capacidad de envejecimiento. Utilizada en la elaboración de algunos de los mejores vinos tintos."
+                }
+            },
+            "precio": 27.50,
+            "nota_de_cata": 4.5
+        },
+        {
+            "id": 3,
+            "nombre": "Vino Rosado Semidulce",
+            "añada": 2019,
+            "varietal": {
+                "descripcion": "Vino tinto de calidad superior, elaborado con uvas de la mejor calidad y envejecido en barricas de roble durante un periodo de tiempo superior al de un vino reserva.",
+                "porcentajeComposicion": 85,
+                "tipoUva": {
+                    "nombre": "Merlot",
+                    "descripcion": "Variedad de uva tinta conocida por su suavidad y sabor afrutado. Es una de las uvas más utilizadas en la producción de vinos tintos en todo el mundo."
+                }
+            },
+            "precio": 18.99,
+            "nota_de_cata": 4.0
+        },
+        {
+            "id": 15,
+            "nombre": "Vino Blanco Seco",
+            "añada": 2020,
+            "varietal": {
+                "descripcion": "Vino tinto de calidad superior, elaborado con uvas de la mejor calidad y envejecido en barricas de roble durante un periodo de tiempo superior al de un vino reserva.",
+                "porcentajeComposicion": 70,
+                "tipoUva": {
+                    "nombre": "Syrah",
+                    "descripcion": "Uva tinta conocida por producir vinos con un profundo color oscuro, con sabores intensos y especiados. Muy popular en regiones vinícolas de Francia y Australia."
+                }
+            },
+            "precio": 19.99,
+            "nota_de_cata": 4.0
+        }
+    ],
+    "Bodega L&L Servicios Internacionales": [
+        {
+            "id": 10,
+            "nombre": "Vino Espumoso Seco",
+            "añada": 2018,
+            "varietal": "Chardonnay",
+            "precio": 28.75,
+            "nota_de_cata": 4.2
+        },
+        {
+            "id": 12,
+            "nombre": "Vino Blanco Joven",
+            "añada": 2022,
+            "varietal": "Sauvignon Blanc",
+            "precio": 14.99,
+            "nota_de_cata": 3.8
+        },
+        {
+            "id": 13,
+            "nombre": "Vino Tinto Roble",
+            "añada": 2017,
+            "varietal": "Malbec",
+            "precio": 25.99,
+            "nota_de_cata": 4.1
+        },
+        {
+            "id": 14,
+            "nombre": "Vino Espumoso Brut Nature",
+            "añada": 2019,
+            "varietal": "Chardonnay",
+            "precio": 23.99,
+            "nota_de_cata": 4.4
+        }
+    ]    
+}
