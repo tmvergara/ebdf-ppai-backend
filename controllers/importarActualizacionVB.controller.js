@@ -75,17 +75,33 @@ class ControladorImportarActualizacionVB {
     return false;
   }
 
+  #actualizarVinoExistente(vino, vinoActualizacion) {
+    vino.actualizarDatosVino;
+  }
+
   #actualizarDatosBodega(nombreBodega) {
     /* Aca se supone que se hace la llamada a la API de la bodega seleccionada, 
     como eso excede el alcance de esta impelmentacion, nosotros metimos todas
     las actualizaciones en un solo archivo y el siguiente codigo busca las mismas
     segun el nombre de la bodega: enfatizamos ACA SE DEBERIA EJECUTAR LA API CALL A LA BODEGA ESPECIFICA.*/
-    const actualizacion = actualizacionBodegas.find((bodega) => {
+    const actualizaciones = actualizacionBodegas.find((bodega) => {
       const nombreBodegaActualizacion = Object.keys(bodega)[0]; // Obtener el nombre de la bodega
       return nombreBodegaActualizacion === nombreBodega;
     });
 
     console.log(actualizacion);
+
+    actualizaciones.forEach((actualizacion) => {
+      const vino = this.vinos.find(
+        (vino) => vino.nombre === actualizacion.nombre
+      );
+
+      if (vino) {
+        // Es actualizacion
+      } else {
+        // Es creacion
+      }
+    });
   }
 
   // Operaciones/Metodos Publicas
