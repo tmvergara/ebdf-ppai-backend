@@ -5,9 +5,10 @@ class Enofilo {
     // Constructor de la clase
     constructor() {
         this.apellido = apellido,
-            this.nombre = nombre,
-            this.imagenPerfil = imagenPerfil,
-            this.usuario = usuario;
+        this.nombre = nombre,
+        this.imagenPerfil = imagenPerfil,
+        this.usuario = usuario;
+        this.amigo = amigo
     }
 
     // Método para obtener el nombre del usuario
@@ -16,15 +17,12 @@ class Enofilo {
     }
 
     // Método para verificar si el usuario sigue a una bodega
-    sigueABodega(bodegas) {
-        for (let i = 0; i < bodegas.length; i++) {
-            if (Siguiendo.sosDeBodega(bodegas[i])) {
+    sigueABodega(bodega) {
+            if (Siguiendo.sosDeBodega(bodega)) {
                 return true;
             }
             return false;
         }
     }
-
-}
 
 module.exports = Enofilo;

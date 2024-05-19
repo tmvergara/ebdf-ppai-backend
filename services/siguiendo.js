@@ -3,7 +3,7 @@ class Siguiendo {
         this.fechaInicio = fechaInicio;
         this.fechaFin = fechaFin;
         this.bodega = bodega;
-        this.enofilo = enofilo;
+        this.seguido = enofilo;
     }
     // verifica si el enófilo sigue a una bodega
     sosDeBodega(bodega) { 

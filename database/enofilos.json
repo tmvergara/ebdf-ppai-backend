@@ -1,0 +1,102 @@
+[
+    {
+        "apellido": "Gonzalez",
+        "nombre": "Juan",
+        "imagenPerfil": "https://randomuser.me/api/portraits",
+        "usuario": "juang",
+        "siguiendo": {
+            "fechaInicio": "2020-01-01",
+            "bodega": "Bodega Freixenet Argentina"
+        }
+    },
+    {
+        "apellido": "Perez",
+        "nombre": "Maria",
+        "imagenPerfil": "https://randomuser.me/api/portraits",
+        "usuario": "mariap",
+        "siguiendo": {
+            "fechaInicio": "2020-01-01",
+            "bodega": "Bodega La Caroyense"
+        }
+    },
+    {
+        "apellido": "Gomez",
+        "nombre": "Pedro",
+        "imagenPerfil": "https://randomuser.me/api/portraits",
+        "usuario": "pedrog",
+        "siguiendo": {
+            "fechaInicio": "2020-01-01",
+            "bodega": "Bodega Aaron Tubert"
+        }
+    },
+    {
+        "apellido": "Rodriguez",
+        "nombre": "Ana",
+        "imagenPerfil": "https://randomuser.me/api/portraits",
+        "usuario": "anar",
+        "siguiendo": {
+            "fechaInicio": "2020-01-01",
+            "bodega": "Bodega Freixenet Argentina"
+        }
+    }, 
+    {
+        "apellido": "Fernandez",
+        "nombre": "Lucia",
+        "imagenPerfil": "https://randomuser.me/api/portraits",
+        "usuario": "luciaf",
+        "siguiendo": {
+            "fechaInicio": "2020-01-01",
+            "bodega": "Bodega L&L Servicios Internacionales"
+        }
+    },
+    {
+        "apellido": "Lopez",
+        "nombre": "Carlos",
+        "imagenPerfil": "https://randomuser.me/api/portraits",
+        "usuario": "carlosl",
+        "siguiendo": {
+            "fechaInicio": "2020-01-01",
+            "bodega": "Bodega Aaron Tubert"
+        }
+    },
+    {
+        "apellido": "Martinez",
+        "nombre": "Sofia",
+        "imagenPerfil": "https://randomuser.me/api/portraits",
+        "usuario": "sofiam",
+        "siguiendo": {
+            "fechaInicio": "2020-01-01",
+            "bodega": "Bodega La Caroyense"
+        }
+    },
+    {
+        "apellido": "Sanchez",
+        "nombre": "Jorge",
+        "imagenPerfil": "https://randomuser.me/api/portraits",
+        "usuario": "jorges",
+        "siguiendo": {
+            "fechaInicio": "2020-01-01",
+            "bodega": "Bodega L&L Servicios Internacionales"
+        }
+    },
+    {
+        "apellido": "Romero",
+        "nombre": "Valeria",
+        "imagenPerfil": "https://randomuser.me/api/portraits",
+        "usuario": "valeriar",
+        "siguiendo": {
+            "fechaInicio": "2020-01-01",
+            "bodega": "Bodega Freixenet Argentina"
+        }
+    },
+    {
+        "apellido": "Diaz",
+        "nombre": "Miguel",
+        "imagenPerfil": "https://randomuser.me/api/portraits",
+        "usuario": "migueld",
+        "siguiendo": {
+            "fechaInicio": "2020-01-01",
+            "bodega": "Bodega La Caroyense"
+        }
+    }
+]
