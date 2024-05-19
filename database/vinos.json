@@ -6,7 +6,14 @@
     "nombre": "Vino Tinto Reserva",
     "notaDeCata": "Aromas a frutas rojas y especias, taninos suaves y final persistente.",
     "precio": 25.99,
-    "varietal": "Tempranillo",
+    "varietal": {
+      "descripcion": "Tempranillo",
+      "porcentajeComposicion": 100,
+      "tipoUva": {
+        "nombre": "Tempranillo",
+        "descripcion": "Variedad de uva tinta utilizada para hacer vino en España y Portugal."
+      }
+    },
     "maridaje": "Carnes rojas a la parrilla"
   },
   {
@@ -16,7 +23,14 @@
     "nombre": "Vino Blanco Joven",
     "notaDeCata": "Notas cítricas y florales, fresco y ligero.",
     "precio": 12.99,
-    "varietal": "Sauvignon Blanc",
+    "varietal": {
+      "descripcion": "Sauvignon Blanc",
+      "porcentajeComposicion": 100,
+      "tipoUva": {
+        "nombre": "Sauvignon Blanc",
+        "descripcion": "Variedad de uva verde utilizada para hacer vino blanco."
+      }
+    },
     "maridaje": "Ensaladas y pescados blancos"
   },
   {
@@ -26,7 +40,14 @@
     "nombre": "Vino Rosado Semidulce",
     "notaDeCata": "Aromas a frutos rojos, dulzor equilibrado y refrescante.",
     "precio": 15.99,
-    "varietal": "Garnacha",
+    "varietal": {
+      "descripcion": "Garnacha",
+      "porcentajeComposicion": 100,
+      "tipoUva": {
+        "nombre": "Garnacha",
+        "descripcion": "Variedad de uva tinta utilizada para hacer vino en España, Francia y otras regiones."
+      }
+    },
     "maridaje": "Postres y quesos suaves"
   },
   {
@@ -36,7 +57,14 @@
     "nombre": "Vino Tinto Gran Reserva",
     "notaDeCata": "Intenso y estructurado, con notas a frutos secos y madera.",
     "precio": 35.99,
-    "varietal": "Cabernet Sauvignon",
+    "varietal": {
+      "descripcion": "Cabernet Sauvignon",
+      "porcentajeComposicion": 100,
+      "tipoUva": {
+        "nombre": "Cabernet Sauvignon",
+        "descripcion": "Variedad de uva tinta utilizada para hacer vino en todo el mundo."
+      }
+    },
     "maridaje": "Carnes asadas y quesos añejos"
   },
   {
@@ -46,7 +74,14 @@
     "nombre": "Vino Tinto Crianza",
     "notaDeCata": "Equilibrado y estructurado, con aromas a frutas maduras y especias.",
     "precio": 18.99,
-    "varietal": "Merlot",
+    "varietal": {
+      "descripcion": "Merlot",
+      "porcentajeComposicion": 100,
+      "tipoUva": {
+        "nombre": "Merlot",
+        "descripcion": "Variedad de uva tinta utilizada para hacer vino en todo el mundo."
+      }
+    },
     "maridaje": "Carnes a la brasa y quesos curados"
   },
   {
@@ -56,7 +91,14 @@
     "nombre": "Vino Blanco Barrica",
     "notaDeCata": "Elegante y complejo, con toques de madera y frutas blancas.",
     "precio": 28.99,
-    "varietal": "Chardonnay",
+    "varietal": {
+      "descripcion": "Chardonnay",
+      "porcentajeComposicion": 100,
+      "tipoUva": {
+        "nombre": "Chardonnay",
+        "descripcion": "Variedad de uva verde utilizada para hacer vino blanco en todo el mundo."
+      }
+    },
     "maridaje": "Pescados grasos y mariscos"
   },
   {
@@ -66,7 +108,14 @@
     "nombre": "Vino Rosado Seco",
     "notaDeCata": "Fresco y afrutado, con notas a frutas rojas y buena acidez.",
     "precio": 14.99,
-    "varietal": "Tempranillo",
+    "varietal": {
+      "descripcion": "Tempranillo",
+      "porcentajeComposicion": 100,
+      "tipoUva": {
+        "nombre": "Tempranillo",
+        "descripcion": "Variedad de uva tinta utilizada para hacer vino en España y Portugal."
+      }
+    },
     "maridaje": "Aperitivos y cocina oriental"
   },
   {
@@ -76,7 +125,14 @@
     "nombre": "Vino Tinto Joven",
     "notaDeCata": "Frutal y fácil de beber, con taninos suaves y final afrutado.",
     "precio": 9.99,
-    "varietal": "Syrah",
+    "varietal": {
+      "descripcion": "Syrah",
+      "porcentajeComposicion": 100,
+      "tipoUva": {
+        "nombre": "Syrah",
+        "descripcion": "Variedad de uva tinta utilizada para hacer vino en todo el mundo."
+      }
+    },
     "maridaje": "Pizzas y pastas con salsas suaves"
   },
   {
@@ -86,7 +142,15 @@
     "nombre": "Vino Tinto Roble",
     "notaDeCata": "Intenso y especiado, con toques de madera y frutos negros.",
     "precio": 22.99,
-    "varietal": "Malbec",
+    "varietal": {
+      "descripcion": "Malbec",
+      "porcentajeComposicion": 100,
+      "tipoUva": {
+        "nombre": "Malbec",
+        "descripcion": "Variedad de uva tinta utilizada para hacer vino en Argentina y otros países."
+      }
+    },
     "maridaje": "Carnes a la parrilla y quesos semicurados"
   }
+  
 ]
