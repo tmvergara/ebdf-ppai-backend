@@ -14,7 +14,8 @@
           }
         },
         "precio": 35.99,
-        "notaDeCata": 4.7
+        "notaDeCata": 4.7,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/HvooITLjRHuzhzzI6XqnGg_pb_x960.png"
       },
       {
         "id": 5,
@@ -29,7 +30,8 @@
           }
         },
         "precio": 31.99,
-        "notaDeCata": 4.2
+        "notaDeCata": 4.2,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/BSrZZl-kTT-5HlQwX2Ayug_pb_x960.png"
       },
       {
         "id": 11,
@@ -44,11 +46,11 @@
           }
         },
         "precio": 35.99,
-        "notaDeCata": 4.3
+        "notaDeCata": 4.3,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/wKyTV_eTTleJniQ2gGebDQ_pb_x960.png"
       }
     ]
   },
-
   {
     "Bodega Freixenet Argentina": [
       {
@@ -64,7 +66,8 @@
           }
         },
         "precio": 14.99,
-        "notaDeCata": 4.2
+        "notaDeCata": 4.2,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/FjglrW43STyXnzcl8kqYSw_pb_x960.png"
       },
       {
         "id": 7,
@@ -79,7 +82,8 @@
           }
         },
         "precio": 16.99,
-        "notaDeCata": 3.9
+        "notaDeCata": 3.9,
+        "imgEtiqueta": "https://web-common.vivino.com/assets/bottleShot/fallback_1.png"
       },
       {
         "id": 9,
@@ -94,7 +98,8 @@
           }
         },
         "precio": 29.99,
-        "notaDeCata": 4.6
+        "notaDeCata": 4.6,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/HvooITLjRHuzhzzI6XqnGg_pb_x960.png"
       }
     ]
   },
@@ -113,7 +118,8 @@
           }
         },
         "precio": 27.5,
-        "notaDeCata": 4.5
+        "notaDeCata": 4.5,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/BSrZZl-kTT-5HlQwX2Ayug_pb_x960.png"
       },
       {
         "id": 3,
@@ -128,7 +134,8 @@
           }
         },
         "precio": 18.99,
-        "notaDeCata": 4.0
+        "notaDeCata": 4.0,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/wKyTV_eTTleJniQ2gGebDQ_pb_x960.png"
       },
       {
         "id": 15,
@@ -143,7 +150,8 @@
           }
         },
         "precio": 19.99,
-        "notaDeCata": 4.0
+        "notaDeCata": 4.0,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/FjglrW43STyXnzcl8kqYSw_pb_x960.png"
       }
     ]
   },
@@ -155,7 +163,8 @@
         "añada": 2018,
         "varietal": "Chardonnay",
         "precio": 28.75,
-        "notaDeCata": 4.2
+        "notaDeCata": 4.2,
+        "imgEtiqueta": "https://web-common.vivino.com/assets/bottleShot/fallback_1.png"
       },
       {
         "id": 12,
@@ -163,7 +172,8 @@
         "añada": 2022,
         "varietal": "Sauvignon Blanc",
         "precio": 14.99,
-        "notaDeCata": 3.8
+        "notaDeCata": 3.8,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/HvooITLjRHuzhzzI6XqnGg_pb_x960.png"
       },
       {
         "id": 13,
@@ -171,7 +181,8 @@
         "añada": 2017,
         "varietal": "Malbec",
         "precio": 25.99,
-        "notaDeCata": 4.1
+        "notaDeCata": 4.1,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/BSrZZl-kTT-5HlQwX2Ayug_pb_x960.png"
       },
       {
         "id": 14,
@@ -179,7 +190,8 @@
         "añada": 2019,
         "varietal": "Chardonnay",
         "precio": 23.99,
-        "notaDeCata": 4.4
+        "notaDeCata": 4.4,
+        "imgEtiqueta": "https://images.vivino.com/thumbs/wKyTV_eTTleJniQ2gGebDQ_pb_x960.png"
       }
     ]
   }
