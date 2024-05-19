@@ -39,11 +39,11 @@ class Bodega {
 
   tieneActualizacion() {
     /* Se fija si la fecha de la ultima actualizacion + el periodo de actualizacion 
-    es mayor a la fecha actual, lo que siginifca que haya actualizaciones pendientes. */
+    es menor a la fecha actual, lo que siginifca que haya actualizaciones pendientes. */
     const fechaVencimiento = new Date(this.ultimaActualizacion);
     const fechaActual = new Date();
-    fechaVencimiento.setDate(
-      fechaVencimiento.getDate() + this.periodoActualziacion
+    fechaVencimiento.setMonth(
+      fechaVencimiento.getMonth() + this.periodoActualziacion
     );
 
     console.log(this.getNombre());
