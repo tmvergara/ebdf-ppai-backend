@@ -14,7 +14,7 @@
           }
         },
         "precio": 35.99,
-        "nota_de_cata": 4.7
+        "notaDeCata": 4.7
       },
       {
         "id": 5,
@@ -29,7 +29,7 @@
           }
         },
         "precio": 31.99,
-        "nota_de_cata": 4.2
+        "notaDeCata": 4.2
       },
       {
         "id": 11,
@@ -44,7 +44,7 @@
           }
         },
         "precio": 35.99,
-        "nota_de_cata": 4.3
+        "notaDeCata": 4.3
       }
     ]
   },
@@ -64,7 +64,7 @@
           }
         },
         "precio": 14.99,
-        "nota_de_cata": 4.2
+        "notaDeCata": 4.2
       },
       {
         "id": 7,
@@ -79,7 +79,7 @@
           }
         },
         "precio": 16.99,
-        "nota_de_cata": 3.9
+        "notaDeCata": 3.9
       },
       {
         "id": 9,
@@ -94,7 +94,7 @@
           }
         },
         "precio": 29.99,
-        "nota_de_cata": 4.6
+        "notaDeCata": 4.6
       }
     ]
   },
@@ -113,7 +113,7 @@
           }
         },
         "precio": 27.5,
-        "nota_de_cata": 4.5
+        "notaDeCata": 4.5
       },
       {
         "id": 3,
@@ -128,7 +128,7 @@
           }
         },
         "precio": 18.99,
-        "nota_de_cata": 4.0
+        "notaDeCata": 4.0
       },
       {
         "id": 15,
@@ -143,7 +143,7 @@
           }
         },
         "precio": 19.99,
-        "nota_de_cata": 4.0
+        "notaDeCata": 4.0
       }
     ]
   },
@@ -155,7 +155,7 @@
         "añada": 2018,
         "varietal": "Chardonnay",
         "precio": 28.75,
-        "nota_de_cata": 4.2
+        "notaDeCata": 4.2
       },
       {
         "id": 12,
@@ -163,7 +163,7 @@
         "añada": 2022,
         "varietal": "Sauvignon Blanc",
         "precio": 14.99,
-        "nota_de_cata": 3.8
+        "notaDeCata": 3.8
       },
       {
         "id": 13,
@@ -171,7 +171,7 @@
         "añada": 2017,
         "varietal": "Malbec",
         "precio": 25.99,
-        "nota_de_cata": 4.1
+        "notaDeCata": 4.1
       },
       {
         "id": 14,
@@ -179,7 +179,7 @@
         "añada": 2019,
         "varietal": "Chardonnay",
         "precio": 23.99,
-        "nota_de_cata": 4.4
+        "notaDeCata": 4.4
       }
     ]
   }

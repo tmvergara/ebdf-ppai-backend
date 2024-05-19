@@ -39,6 +39,20 @@ class Vino {
       new TipoUva(varietal.tipoUva.nombre, varietal.tipoUva.descripcion)
     );
   }
+  actualizarDatosVino(actualizacion) {
+    if (actualizacion.nombre) {
+      this.setNombre(actualizacion.nombre);
+    }
+    if (actualizacion.precio) {
+      this.setPrecio(actualizacion.precio);
+    }
+    if (actualizacion.imgEtiqueta) {
+      this.setImagenEtiqueta(actualizacion.imgEtiqueta);
+    }
+    if (actualizacion.notaDeCata) {
+      this.setNotaDeCata(actualizacion.notaDeCata);
+    }
+  }
 }
 
 module.exports = Vino;
