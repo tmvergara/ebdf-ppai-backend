@@ -18,7 +18,9 @@ class Server {
 
   routes() {
     // Importar y usar las rutas
-    const bodegasRouter = require("./routes/pantallaImportarActualizacionBV.router");
+    const PantallaImportarActualizacionVBRouter = require("./routes/pantallaImportarActualizacionVB.router");
+    const bodegasRouter =
+      new PantallaImportarActualizacionVBRouter().getRouter();
     this.app.use("/bodegas", bodegasRouter);
   }
 
